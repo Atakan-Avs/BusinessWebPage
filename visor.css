@@ -1,16 +1,16 @@
-/* Genel stil ayarları */
+/* General styling settings */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #beb4b4; /* Sayfa arka plan rengi */
-    color: #333; /* Yazı rengi */
+    background-color: #beb4b4; /* Page background color */
+    color: #333; /* Text color */
 }
 
-/* Header (başlık) kısmı */
+/* Header section */
 .header {
     text-align: center;
-    background-color: #cdaf42; /* Yeşil arka plan */
+    background-color: #cdaf42; /* Yellow background */
     color: white;
     padding: 20px;
 }
@@ -29,27 +29,25 @@ body {
     margin: 5px 0;
 }
 
-
-
-/*products*/
+/* Product section */
 .product-section {
     padding: 30px 20px;
     background-color: white;
     margin: 20px;
-    border-radius: 8px; /* Köşeleri yuvarlatılmış kutu */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-/*table*/
+/* Product table */
 .product-table {
-    width: 60%; 
-    height: 400px; 
+    width: 60%;
+    height: 400px;
     border-collapse: collapse;
     margin: 0 auto;
 }
 
 .product-table th, .product-table td {
-    padding: 10px; 
+    padding: 10px;
     text-align: center;
     border: 1px solid #ddd;
     font-size: 14px;
@@ -61,12 +59,11 @@ body {
     font-size: 18px;
 }
 
-
 .product-table tr:hover {
-    background-color: #e4cce2; /*satirda renk degisimi*/
+    background-color: #e4cce2; /* Row hover color */
 }
 
-/*buton stili*/
+/* Button styling */
 .about-button {
     text-align: center;
     margin: 30px;
@@ -84,29 +81,25 @@ body {
 }
 
 .about-button button:hover {
-    background-color: #45a049; /*buton üzerine gelindiğinde renk değişir */
+    background-color: #45a049; /* Hover color for button */
 }
 
-
-
-
+/* Column-specific header colors */
 .product-table th:nth-child(1) {
-    background-color: #57554f; /*product başlığı rengi*/
+    background-color: #57554f; /* Product column header color */
 }
 
 .product-table th:nth-child(2) {
-    background-color: #57554f; /*price başlığı rengi*/
+    background-color: #57554f; /* Price column header color */
 }
 
 .product-table th:nth-child(3) {
-    background-color: #57554f; /*stock başlığı rengi*/
+    background-color: #57554f; /* Stock column header color */
 }
 
-
-
-/*ınstagram logo hizalama*/
+/* Instagram logo positioning */
 .instagram-logo {
-    position: fixed !important;  /* Sabit durması için zorunlu */
+    position: fixed !important;  /* Keep fixed on screen */
     bottom: 20px;
     left: 20px;
     width: 40px;
@@ -121,7 +114,7 @@ body {
     display: block;
 }
 
-/*Logo*/
+/* Logo container */
 .logo-container {
     text-align: center;
     justify-content: center;
@@ -129,26 +122,3 @@ body {
     margin: auto;
     padding: 2% 0;
 }
-
-
-
-
-
-
-
-  
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
